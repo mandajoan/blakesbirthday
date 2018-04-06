@@ -2,10 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+
 
 .App-header {
   background-color: #222;
@@ -14,15 +11,36 @@
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.titleSection {
+    color: red;
+    font-family: 'Chewy', cursive;
+    font-size: 40px;
 }
-
 .App-intro {
-  font-size: large;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+.surpriseButton {
+    background-color: orangered; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    display: inline-block;
+    font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.blake {
+    width: 500px;
+    height: auto;
+}
+h2 {
+    color: orangered;
+    font-family: 'Chewy', cursive;
+    font-size: 35px;
+}
+h3 {
+    color: red;
+    font-family: 'Orbitron', sans-serif;
 }
