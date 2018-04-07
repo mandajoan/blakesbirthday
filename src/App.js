@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Surprise from './surpise'
+import  ninjagif from './imgFile'
 
 import './App.css';
 
@@ -31,7 +32,7 @@ class App extends Component {
         return (
             <div>
             <div>
-                <img src="../images/ninjagif.gif" />
+                <img src={require("./images/ninjagif.gif")} alt="img"/>
             </div>
             <p className="App-intro">
                 I can't believe you are 5 years old!
